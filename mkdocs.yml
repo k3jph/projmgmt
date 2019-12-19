@@ -1,1 +1,10 @@
-site_name: My Docs
+site_name: Project Management and Public Adminstration
+site_description: Resources and information for public project managers
+site_author: James P. Howard, II
+copyright: Copyright &copy; 2020 Dr. James P. Howard, II.
+site_url: https://howardjp.github.io/projmgmt
+repo_url: https://github.com/howardjp/projmgmt
+use_directory_urls: true
+theme:
+    name: material
+    custom_dir: 'theme'
