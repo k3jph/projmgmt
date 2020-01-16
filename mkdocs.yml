@@ -1,0 +1,61 @@
+site_name: Project Management and Public Administration
+site_description: Resources and information for public project managers
+site_author: James P. Howard, II
+copyright: Copyright &copy; 2020 James P. Howard, II.
+site_url: https://k3jph.github.io/projmgmt
+
+repo_name: 'k3jph/projmgmt'
+repo_url: https://github.com/k3jph/projmgmt
+
+use_directory_urls: true
+
+nav:
+    - Welcome: index.md
+    - Initiation:
+        - 'Project Charters': initiation/charter.md
+        - 'Identifying Stakeholders': initiation/stakeholders.md
+    - License: license.md
+
+# Configuration
+theme:
+  name: 'material'
+  language: 'en'
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  logo:
+    icon: 'group'
+  custom_dir: 'theme'
+
+# Customization
+extra:
+  manifest: 'manifest.webmanifest'
+  social:
+    - type: 'globe'
+      link: 'https://jameshoward.us'
+    - type: 'twitter'
+      link: 'https://twitter.com/k3jph'
+    - type: 'linkedin'
+      link: 'https://www.linkedin.com/in/k3jph'
+
+# Google Analytics
+google_analytics:
+  - 'UA-79581-12'
+  - 'auto'
+
+# Extensions
+markdown_extensions:
+  - codehilite:
+      guess_lang: false
+  - footnotes
+  - meta
+  - pymdownx.arithmatex
+  - pymdownx.details
+  - toc:
+      permalink: true
+
+plugins:
+  - search
